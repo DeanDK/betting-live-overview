@@ -15,15 +15,33 @@ const Header = () => (
     </div>
 
     <div className="header-text">
-      <div>Favorites</div>
-      <div>Football</div>
-      <div>Basketball</div>
-      <div>Tennis</div>
-      <div>Baseball</div>
-      <div>Waterpolo</div>
-      <div>Volleyball</div>
-      <div>Handball</div>
-      <div>Formula</div>
+      <div className="parent">
+        <div className="child">Favorites</div>
+      </div>
+      <div className="parent">
+        <div className="child">Football</div>
+      </div>
+      <div className="parent">
+        <div className="child">Basketball</div>
+      </div>
+      <div className="parent">
+        <div className="child">Tennis</div>
+      </div>
+      <div className="parent">
+        <div className="child">Baseball</div>
+      </div>
+      <div className="parent">
+        <div className="child">Waterpolo</div>
+      </div>
+      <div className="parent">
+        <div className="child">Volleyball</div>
+      </div>
+      <div className="parent">
+        <div className="child">Handball</div>
+      </div>
+      <div className="parent">
+        <div className="child">Formula</div>
+      </div>
     </div>
     <div className="header-text" />
   </div>
