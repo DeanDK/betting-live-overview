@@ -10,3 +10,10 @@ body {
   font-size: 1.3rem;
   color: black;
 }
+
+.betting-options {
+  &_parent__child {
+    color: $betting-options-menu-color-static;
+    font-size: 1.3rem;
+  }
+}
