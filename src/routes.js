@@ -3,12 +3,15 @@ import { Switch, Route } from "react-router-dom";
 
 import NoRoute from "./components/404";
 import Home from "./containers/home_container.js";
+import Layout from "./hoc/layout.js";
 
 const Routes = () => (
-  <Switch>
-    <Route path="/" exact component={Home} />
-    <Route component={NoRoute} />
-  </Switch>
+  <Layout>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route component={NoRoute} />
+    </Switch>
+  </Layout>
 );
 
 export default Routes;

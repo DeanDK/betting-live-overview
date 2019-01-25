@@ -1,0 +1,17 @@
+.header-icons {
+  & > *:not(:first-child) {
+    margin-left: 11rem;
+  }
+
+  & > *:nth-child(1) {
+    margin-left: 1rem;
+  }
+}
+
+.header-text {
+  display: flex;
+
+  & > *:not(:first-child) {
+    margin-left: 9rem;
+  }
+}

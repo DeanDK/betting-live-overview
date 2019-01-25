@@ -6,7 +6,7 @@ import { getLiveOverview } from "./../actions";
 
 class HomeContainer extends Component {
   render() {
-    return <div>Hello World</div>;
+    return <div />;
   }
 
   componentWillMount() {
@@ -16,7 +16,7 @@ class HomeContainer extends Component {
 
 function mapStateToProps(state) {
   return {
-    profile: state.gitReducer
+    overview: state.footballReducer
   };
 }
 
