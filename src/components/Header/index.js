@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <div className="header">
@@ -16,34 +17,51 @@ const Header = () => (
 
     <div className="header-text">
       <div className="parent_header">
-        <div className="child">Favorites</div>
+        <div className="child">
+          <Link to="/favorites">Favorites</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Football</div>
+        <div className="child">
+          <Link to="/">Football</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Basketball</div>
+        <div className="child">
+          <Link to="/basketball">Basketball</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Tennis</div>
+        <div className="child">
+          <Link to="/tennis">Tennis</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Baseball</div>
+        <div className="child">
+          <Link to="/baseball">Baseball</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Waterpolo</div>
+        <div className="child">
+          <Link to="/waterpolo">Waterpolo</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Volleyball</div>
+        <div className="child">
+          <Link to="/volleyball">Volleyball</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Handball</div>
+        <div className="child">
+          <Link to="/handball">Handball</Link>
+        </div>
       </div>
       <div className="parent_header">
-        <div className="child">Formula</div>
+        <div className="child">
+          <Link to="/formula">Formula</Link>
+        </div>
       </div>
     </div>
-    <div className="header-text" />
   </div>
 );
 

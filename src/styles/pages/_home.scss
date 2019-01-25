@@ -1,16 +1,32 @@
-.betting-options {
-  display: flex;
+.container {
   height: 8rem;
   background-color: $betting_options-color;
   border-radius: 5px;
   margin-top: 3rem;
+}
 
+.sport {
+  display: flex;
+  &-logo {
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+
+  &-name {
+    padding-left: 1.5rem;
+    padding-top: 0.8rem;
+    color: #fff;
+  }
+}
+
+.betting-options {
+  display: flex;
   &_parent__child {
-    margin-left: 3rem;
-    margin-top: 5rem;
-    padding-bottom: 8px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 3px;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 12px;
     border: 0.2px solid transparent;
   }
 

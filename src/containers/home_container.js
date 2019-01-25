@@ -2,11 +2,16 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
+import BettingOptions from "./../components/BettingOptions";
 import { getLiveOverview } from "./../actions";
 
 class HomeContainer extends Component {
   render() {
-    return <div />;
+    return (
+      <div>
+        <BettingOptions />
+      </div>
+    );
   }
 
   componentWillMount() {

@@ -9,6 +9,7 @@ const Routes = () => (
   <Layout>
     <Switch>
       <Route path="/" exact component={Home} />
+      <Route path="/:name" exact component={NoRoute} />
       <Route component={NoRoute} />
     </Switch>
   </Layout>
